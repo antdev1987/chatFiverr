@@ -1,0 +1,235 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.txt-start {
+  text-align: start;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-end {
+  text-align: end;
+}
+
+.d-InBlo {
+  display: inline-block;
+}
+
+/* Weight utilities */
+.fw-thing {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 800;
+}
+
+/* Flex utilities */
+.d-flex {
+  display: flex;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.alignSelfCenter {
+  align-self: center;
+}
+/* Flex utilities */
+
+/* Gap utilities */
+.g-1 {
+  gap: 1rem;
+}
+
+.g-2 {
+  gap: 2rem;
+}
+
+.g-3 {
+  gap: 3rem;
+}
+
+.g-4 {
+  gap: 4rem;
+}
+
+.g-5 {
+  gap: 5rem;
+}
+/* Gap utilities */
+
+/* Padding utilities */
+.pY-1 {
+  padding: 1rem 0;
+}
+
+.pY-2 {
+  padding: 2rem 0;
+}
+
+.pY-3 {
+  padding: 3rem 0;
+}
+
+.pY-4 {
+  padding: 4rem 0;
+}
+
+.pY-5 {
+  padding: 5rem 0;
+}
+
+.pY-6 {
+  padding: 6rem 0;
+}
+
+.pX-1 {
+  padding: 0 1rem;
+}
+
+.pX-2 {
+  padding: 0 2rem;
+}
+
+.pX-3 {
+  padding: 0 3rem;
+}
+
+.pX-4 {
+  padding: 0 4rem;
+}
+
+.pX-5 {
+  padding: 0 5rem;
+}
+
+.pX-6 {
+  padding: 0 6rem;
+}
+
+.pXY-1 {
+  padding: 1rem;
+}
+
+.pXY-2 {
+  padding: 2rem;
+}
+
+.pXY-3 {
+  padding: 3rem;
+}
+
+.pXY-4 {
+  padding: 4rem;
+}
+
+.pXY-5 {
+  padding: 5rem;
+}
+
+.pXY-6 {
+  padding: 6rem;
+}
+
+.pR-1 {
+  padding-right: 1rem;
+}
+
+.pR-2 {
+  padding-right: 2rem;
+}
+
+.pR-3 {
+  padding-right: 3rem;
+}
+
+.pR-4 {
+  padding-right: 4rem;
+}
+
+.pR-5 {
+  padding-right: 5rem;
+}
+
+.pR-6 {
+  padding-right: 6rem;
+}
+/* Padding utilities */
+
+/* Margin utilities */
+
+.mY-1 {
+  margin: 1rem 0;
+}
+
+.mY-2 {
+  margin: 2rem 0;
+}
+
+.mY-3 {
+  margin: 3rem 0;
+}
+
+.mY-4 {
+  margin: 4rem 0;
+}
+
+.mY-5 {
+  margin: 5rem 0;
+}
+
+.mY-6 {
+  margin: 6rem 0;
+}
+
+
+.mX-1 {
+  margin: 0 1rem;
+}
+
+.mX-2 {
+  margin: 0 2rem;
+}
+
+.mX-3 {
+  margin: 0 3rem;
+}
+
+.mX-4 {
+  margin: 0 4rem;
+}
+
+.mX-5 {
+  margin: 0 5rem;
+}
+
+.mX-6 {
+  margin: 0 6rem;
+}
+/* Margin utilities */

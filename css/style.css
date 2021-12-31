@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #05413c;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.7;
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.circle {
+  position: relative;
+}
+
+.circle::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  top: 0;
+  right: 0.1rem;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header */
+.header p {
+  font-size: 2rem;
+}
+
+/* options */
+.options a {
+  color: rgba(120, 120, 120, 0.521);
+  padding: 2rem 0;
+}
+
+.options .active {
+  color: var(--green);
+  position: relative;
+}
+
+.options .active::after {
+  content: '';
+  position: absolute;
+  background: var(--green);
+  height: 10%;
+  width: 4.8rem;
+  border-top-right-radius: 10rem;
+  border-top-left-radius: 10rem;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+/* body */
+.body {
+  background: #f9fafb;
+  position: relative;
+}
+
+.body a .active::after {
+  background: #30bd3e;
+}
+
+.body .number {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.body .body-content {
+  border-bottom: 1px solid #eee;
+}
+
+.body .no-read {
+  color: var(--green);
+}
+
+.body .number::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: var(--green);
+  height: 2.4rem;
+  width: 2.4rem;
+  z-index: -1;
+}
+
+.body a img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.body .edit {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+
+/* footer */
+.footer .footer__content div {
+  height: 7.5rem;
+  width: 8.5rem;
+}
+
+.footer .footer__content .active {
+  position: relative;
+}
+
+.footer .footer__content .active::after {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  width: 3.2rem;
+  background: #05413c;
+  top: 0;
+  border-bottom-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
