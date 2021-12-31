@@ -91,7 +91,6 @@ a {
   position: relative;
 }
 
-
 .body a {
   height: 9.6rem;
 }
@@ -100,7 +99,9 @@ a {
   background: #30bd3e;
 }
 
-
+.body a .header {
+  margin-bottom: 1rem;
+}
 
 .body .body-content {
   padding-bottom: 2rem;
