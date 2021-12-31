@@ -29,6 +29,22 @@
 }
 
 /* Weight utilities */
+.fs-18 {
+  font-size: 1.8rem;
+}
+
+.fs-20 {
+  font-size: 2rem;
+}
+
+.fs-12{
+  font-size: 1.2rem;
+}
+
+.fw-intial {
+  font-weight: initial;
+}
+
 .fw-thing {
   font-weight: 400;
 }
@@ -212,7 +228,6 @@
 .mY-6 {
   margin: 6rem 0;
 }
-
 
 .mX-1 {
   margin: 0 1rem;

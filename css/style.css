@@ -96,6 +96,10 @@ a {
   font-size: 1.8rem;
 }
 
+.body a {
+  height: 9.6rem;
+}
+
 .body a .active::after {
   background: #30bd3e;
 }
@@ -107,6 +111,7 @@ a {
 }
 
 .body .body-content {
+  padding-bottom: 2rem;
   border-bottom: 1px solid #eee;
 }
 
