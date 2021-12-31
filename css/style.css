@@ -18,7 +18,6 @@ html {
 }
 
 body {
-  line-height: 1.7;
   font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -92,9 +91,6 @@ a {
   position: relative;
 }
 
-.body .body-content .header {
-  font-size: 1.8rem;
-}
 
 .body a {
   height: 9.6rem;
@@ -104,11 +100,7 @@ a {
   background: #30bd3e;
 }
 
-.body .number {
-  color: white;
-  position: relative;
-  z-index: 1;
-}
+
 
 .body .body-content {
   padding-bottom: 2rem;
@@ -117,6 +109,13 @@ a {
 
 .body .no-read {
   color: var(--green);
+}
+
+.body .number {
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
 }
 
 .body .number::after {

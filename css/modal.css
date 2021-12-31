@@ -29,6 +29,13 @@
   height: 13.2rem;
 }
 
+.modal-content .btn {
+  height: 3.9rem;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: .5rem;
+}
+
 /* The Close Button */
 .close {
   position: absolute;
