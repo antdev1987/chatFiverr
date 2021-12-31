@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=6AqfGK6s"></script>
+    <!-- replace with KEY-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" href="/css/utility.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="/css/modal.css" />
@@ -24,6 +27,81 @@
         <a href="#" class="btn btn-green fs-16"> Adjust Playback Settings </a>
         <a href="#" class="btn optionClose fs-16"> Close </a>
       </div>
+    </div>
+    <div class="container-phone">
+      <div class="statusBar d-flex justify-sb align-center pXY-2 container">
+        <p class="font-roboto fw-initial">9:41</p>
+        <ul class="d-flex justify-sb align-center g-1">
+          <li>
+            <img src="/img/Mobile Signal.svg" alt="" />
+          </li>
+          <li>
+            <img src="/img/Wifi.svg" alt="" />
+          </li>
+          <li>
+            <img src="/img/Battery.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div class="body body-chat">
+        <a class="d-flex justify-sb g-1 align-center pX-2">
+          <ul>
+            <li>
+              <img src="/img/Back Icon.svg" alt="" />
+            </li>
+          </ul>
+          <div class="circle active"><img src="/img/image1.jpg" alt="" /></div>
+          <div>
+            <p class="fw-bold fs-18 header" style="font-weight: 600">
+              Darlene Robertson
+            </p>
+            <p class="font-roboto online fw-initial fs-16">Online</p>
+          </div>
+          <ul class="txt-center">
+            <li>
+              <img src="/img/Option Icon.svg" alt="" />
+            </li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="chat">
+        <textarea id="text" style="display: none">
+         Web designers generally have nothing to do with creating content for their projects. Even so, the look of a site can be incomplete if no words are included. Web designers need to find ways to incorporate copyright-free content into their designs to provide clients with a look that is as finished as possible.
+         Creating a prototype website that also contains copy and images is the only way to help the client understand what the concept behind your design is. Without these elements, the finished product can look quite odd, and the client won’t be able to mentally project his own content uploaded on the site.
+         </textarea
+        >
+        <p
+          onclick="responsiveVoice.speak($('#text').val(),'UK English Female');"
+        >
+          Web designers generally have nothing to do with creating content for
+          their projects. Even so, the look of a site can be incomplete if no
+          words are included. Web designers need to find ways to incorporate
+          copyright-free content into their designs to provide clients with a
+          look that is as finished as possible. Creating a prototype website
+          that also contains copy and images is the only way to help the client
+          understand what the concept behind your design is. Without these
+          elements, the finished product can look quite odd, and the client
+          won’t be able to mentally project his own content uploaded on the
+          site.
+        </p>
+      </div>
+      <!-- <select id="voiceselection"></select> -->
+
+      <!-- <input
+        onclick="responsiveVoice.speak($('#text').val(),$('#voiceselection').val());"
+        type="button"
+        value="Read this for me"
+      /> -->
+
+      <!-- <script>
+        //Populate voice selection dropdown
+        var voicelist = responsiveVoice.getVoices();
+        var vselect = $('#voiceselection');
+        $.each(voicelist, function () {
+          vselect.append($('<option />').val(this.name).text(this.name));
+        });
+      </script> -->
     </div>
   </body>
 </html>

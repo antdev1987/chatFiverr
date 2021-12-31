@@ -132,7 +132,7 @@ a {
   z-index: -1;
 }
 
-.body a img {
+.body a div img {
   object-fit: cover;
   border-radius: 50%;
   width: 5.2rem;
@@ -156,7 +156,24 @@ a {
   z-index: -1;
 }
 
+.body.body-chat {
+  background: white;
+}
+
+.body.body-chat .online {
+  color: #30bd3e;
+}
+
+.body.body-chat a .body-content {
+  border: none;
+}
+
 /* Body */
+
+/* chat page */
+.chat {
+  background: #f9fafb;
+}
 
 /* footer */
 .footer .footer__content div {
