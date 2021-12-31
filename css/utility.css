@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.container-phone {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
 .w-100 {
   width: 100%;
 }
