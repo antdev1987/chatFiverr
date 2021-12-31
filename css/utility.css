@@ -205,6 +205,31 @@
 .pR-6 {
   padding-right: 6rem;
 }
+
+
+.pT-1 {
+  padding-top: 1rem;
+}
+
+.pT-2 {
+  padding-top: 2rem;
+}
+
+.pT-3 {
+  padding-top: 3rem;
+}
+
+.pT-4 {
+  padding-top: 4rem;
+}
+
+.pT-5 {
+  padding-top: 5rem;
+}
+
+.pT-6 {
+  padding-top: 6rem;
+}
 /* Padding utilities */
 
 /* Margin utilities */
