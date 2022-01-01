@@ -172,7 +172,7 @@ a {
 
 /* chat page */
 .chat {
-  background: #f9fafb;
+  background: rgb(241, 241, 241);
 }
 
 .chat textarea {
@@ -186,7 +186,7 @@ a {
 }
 
 .chat .bouble.other {
-  background: white;
+  background: #f8f8f7;
   padding-right: 5rem;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -216,7 +216,7 @@ a {
   text-align: center;
   color: #05413c;
   font-size: 1.4rem;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .chat .d-flex {
@@ -230,6 +230,7 @@ a {
   padding: 2rem 2rem;
   border-radius: 5rem;
   border: none;
+  border: solid 2px #f1f1f1;
 }
 
 .chat div .attach {
