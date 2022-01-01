@@ -175,6 +175,69 @@ a {
   background: #f9fafb;
 }
 
+.chat textarea {
+  display: none;
+}
+
+.chat .bouble {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+.chat .bouble.other {
+  background: white;
+  padding-right: 5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.chat .bouble.you {
+  background: #05413c;
+  color: white;
+  padding-right: 7rem;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+}
+
+.chat .bouble.you::after {
+  content: 'Read';
+  position: absolute;
+  bottom: -1.5rem;
+  right: 0;
+  font-size: 1.2rem;
+  color: #05413c;
+}
+
+.chat .time {
+  text-align: center;
+  color: #05413c;
+  font-size: 1.4rem;
+  padding: 2rem 0;
+}
+
+.chat .d-flex {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.chat div input {
+  flex: 1;
+  height: 5.6rem;
+  padding: 2rem 2rem;
+  border-radius: 5rem;
+  border: none;
+}
+
+.chat div .attach {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
 /* footer */
 .footer .footer__content div {
   height: 7.5rem;

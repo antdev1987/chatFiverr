@@ -24,3 +24,20 @@ window.onclick = function (event) {
     modal.style.display = 'none';
   }
 };
+
+// ////////////////////////////////////
+
+const msg = [
+  { from: 'other', txt: 'Hi, hi...' },
+  { from: 'other', txt: 'Here is another link if you need it :)' },
+  { from: 'you', txt: 'Sure, Thank you' },
+  { time: '2:15 PM' },
+  { from: 'other', txt: 'BWT, How are you' },
+  { from: 'you', txt: "I'm well!" },
+  { time: '8.43 PM' },
+  { from: 'other', txt: 'hahahahhahahaha' },
+];
+
+for (const item of msg) {
+  
+}
