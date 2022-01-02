@@ -95,7 +95,8 @@ a {
   height: 9.6rem;
 }
 
-.body a .active::after {
+.body a .active::after,
+.body .content .active::after {
   background: #30bd3e;
 }
 
@@ -132,7 +133,8 @@ a {
   z-index: -1;
 }
 
-.body a div img {
+.body a div img,
+.body .content div img {
   object-fit: cover;
   border-radius: 50%;
   width: 5.2rem;
@@ -164,7 +166,7 @@ a {
   color: #30bd3e;
 }
 
-.body.body-chat a .body-content {
+.body.body-chat .content .body-content {
   border: none;
 }
 
